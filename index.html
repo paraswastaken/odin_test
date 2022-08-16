@@ -8,68 +8,22 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <table>
-    <!-- <tr>
-      <th>&nbsp;</th>
-      <th>Knocky</th>
-      <th>Flor</th>
-      <th>Ella</th>
-      <th>Juan</th>
-    </tr>
-    <tr>
-      <th>Breed</th>
-      <td>Jack Russell</td>
-      <td>Poodle</td>
-      <td>Streetdog</td>
-      <td>Cocker Spaniel</td>
-    </tr>
-    <tr>
-      <th>Age</th>
-      <td>16</td>
-      <td>9</td>
-      <td>10</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>Owner</th>
-      <td>Mother-in-law</td>
-      <td>Me</td>
-      <td>Me</td>
-      <td>Sister-in-law</td>
-    </tr>
-    <tr>
-      <th>Eating Habits</th>
-      <td>Eats everyone's leftovers</td>
-      <td>Nibbles at food</td>
-      <td>Hearty eater</td>
-      <td>Will eat till he explodes</td>
-    </tr> -->
-    <table>
-      <tr>
-        <th colspan="2">Animals</th>
-      </tr>
-      <tr>
-        <th colspan="2">Hippopotamus</th>
-      </tr>
-      <tr>
-        <th rowspan="2">Horse</th>
-        <td>Mare</td>
-      </tr>
-      <tr>
-        <td>Stallion</td>
-      </tr>
-      <tr>
-        <th colspan="2">Crocodile</th>
-      </tr>
-      <tr>
-        <th rowspan="2">Chicken</th>
-        <td>Hen</td>
-      </tr>
-      <tr>
-        <td>Rooster</td>
-      </tr>
-    </table>
-    
-  </table>
+<form action="/my-handling-form-page" method="post">
+  <ul>
+    <li>
+      <label for="name-input">Name:</label>
+      <input type="text" id="name-input" placeholder="Jon Doe...." name="name">
+    </li>
+    <li>
+      <label for="email-input">E-mail:</label>
+      <input type="email" placeholder="jon@mail.com" id="email-input" name="email">
+    </li>
+    <li>
+      <label for="message">Message:</label>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    </li>
+    <button type="submit">SUBMIT</button>
+  </ul>
+</form>
 </body>
 </html>
